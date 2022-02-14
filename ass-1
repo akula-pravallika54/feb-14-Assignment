@@ -1,0 +1,10 @@
+#NUMBER OF DIGITS IN A NUMBER
+n=int(input('enter a number:'))
+count=0
+while n>0:
+    count+=1
+    n=n//10
+print('no. of digits in a given number:',count)    
+OUTPUT:
+enter a number:12345
+no. of digits in a given number:5
